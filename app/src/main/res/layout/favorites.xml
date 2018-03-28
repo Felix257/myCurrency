@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/currencyList"
+        android:layout_width="0dp"
+        android:layout_height="551dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:stretchColumns="3"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="49dp"
+                    android:layout_height="49dp"
+                    app:srcCompat="@drawable/afghanistan" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="147dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="    Afghanistan"
+                    android:textAlignment="textStart"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="AFN"
+                    android:textAlignment="textStart" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="Afghani (  )"
+                    android:textAlignment="viewEnd" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="49dp"
+                    android:layout_height="49dp"
+                    app:srcCompat="@drawable/algeria" />
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="    Algieria"
+                    android:textAlignment="textStart" />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="DZD"
+                    android:textAlignment="textStart" />
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="Dinar ( )"
+                    android:textAlignment="textEnd" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="rowClick">
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="49dp"
+                    android:layout_height="49dp"
+                    app:srcCompat="@drawable/albania" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="147dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="    Albania"
+                    android:textAlignment="textStart"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="LEK"
+                    android:textAlignment="textStart" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="ALL ( L )"
+                    android:textAlignment="viewEnd" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="rowClick">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="49dp"
+                    android:layout_height="49dp"
+                    app:srcCompat="@drawable/usa" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="147dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="    Aruba"
+                    android:textAlignment="textStart"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="AWG"
+                    android:textAlignment="textStart" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="Florin ( f )"
+                    android:textAlignment="viewEnd" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="rowClick">
+
+                <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="49dp"
+                    android:layout_height="49dp"
+                    app:srcCompat="@drawable/azerbaijan" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="147dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="    Azerbaijan"
+                    android:textAlignment="textStart"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="AZN"
+                    android:textAlignment="textStart" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="Manat ( m.)"
+                    android:textAlignment="viewEnd" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="rowClick">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="49dp"
+                    android:layout_height="49dp"
+                    app:srcCompat="@drawable/usa" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="147dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="    Australia"
+                    android:textAlignment="textStart"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="AUD"
+                    android:textAlignment="textStart" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="Dollar ( $ )"
+                    android:textAlignment="viewEnd" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="rowClick">
+
+                <ImageView
+                    android:id="@+id/imageView19"
+                    android:layout_width="49dp"
+                    android:layout_height="49dp"
+                    app:srcCompat="@drawable/angola" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="147dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="    Angola"
+                    android:textAlignment="textStart"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="AOA"
+                    android:textAlignment="textStart" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="Kwanza ( Kz )"
+                    android:textAlignment="viewEnd" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="rowClick">
+
+                <ImageView
+                    android:id="@+id/imageView18"
+                    android:layout_width="49dp"
+                    android:layout_height="49dp"
+                    app:srcCompat="@drawable/armenia" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="147dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="    Armenia"
+                    android:textAlignment="textStart"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="AMD"
+                    android:textAlignment="textStart" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="Dram ( )"
+                    android:textAlignment="viewEnd" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="rowClick">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="49dp"
+                    android:layout_height="49dp"
+                    app:srcCompat="@drawable/usa" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="147dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="    Argentina"
+                    android:textAlignment="textStart"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="ARS"
+                    android:textAlignment="textStart" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="Peso ( $ )"
+                    android:textAlignment="viewEnd" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <ImageView
+                    android:id="@+id/imageView17"
+                    android:layout_width="49dp"
+                    android:layout_height="49dp"
+                    app:srcCompat="@drawable/canada" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="147dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="    Canada"
+                    android:textAlignment="textStart"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="CAD"
+                    android:textAlignment="textStart" />
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="Dollar ( $ )"
+                    android:textAlignment="viewEnd" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="49dp"
+                android:layout_height="49dp"
+                android:onClick="rowClick">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="49dp"
+                    android:layout_height="49dp"
+                    app:srcCompat="@drawable/usa" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="147dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="    United States"
+                    android:textAlignment="textStart"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="USD"
+                    android:textAlignment="textStart" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="Dollar ( $ )"
+                    android:textAlignment="viewEnd" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
